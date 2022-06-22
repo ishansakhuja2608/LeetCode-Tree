@@ -1,0 +1,1 @@
+If the root value is in the given range, then add the value of that particular node to the result, use recursion to check for the left and right nodes.
