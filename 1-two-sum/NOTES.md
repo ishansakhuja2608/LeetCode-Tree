@@ -1,0 +1,1 @@
+We have to look for the difference, if it contains the dfference, then we return the index of that difference from the map and the index of that array.
