@@ -26,8 +26,8 @@ class Solution {
             return;
         
         inorder(root.left, nums, k);
-        if(++nums[0] == k) {
-            nums[1] = root.val;
+        if(++nums[0] == k) { // to keep the count
+            nums[1] = root.val; 
             return;
         }
         inorder(root.right, nums, k);
