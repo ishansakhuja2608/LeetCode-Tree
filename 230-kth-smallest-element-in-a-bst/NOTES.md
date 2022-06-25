@@ -1,0 +1,1 @@
+Inorder traversal of a BST is always in sorted manner, with every call to the left of the root, decrement the value of the k, if the value of k == 0, return the value of that particular root, otherwise proceed to the right roots of the BST.
