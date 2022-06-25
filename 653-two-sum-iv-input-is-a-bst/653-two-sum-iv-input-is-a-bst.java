@@ -15,7 +15,8 @@
  */
 class Solution {
     /*
-    While inorder traversal of the BST, check whether the difference of the sum and current val is present in the hashset, if yes, return true, otherwise add that particular value to the set and call for right child
+    While inorder traversal of the BST, check whether the difference of the sum and current val is present in the hashset, if yes, return true,
+    otherwise add that particular value to the set and call for right child
     */
     public boolean findTarget(TreeNode root, int k) {
         HashSet<Integer> s = new HashSet<>();
